@@ -4,9 +4,9 @@ with open("requirements.txt") as f:
     content = f.readlines()
 requirements = [x.strip() for x in content]
 
-setup(name="TaxiFareStreamlit",
+setup(name="ml-for-docs-test",
       version="1.0",
-      description="taxifare streamlit",
+      description="",
       packages=find_packages(),
       include_package_data=True,  # includes in package files from MANIFEST.in
       install_requires=requirements)
