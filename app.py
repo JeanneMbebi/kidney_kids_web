@@ -1,8 +1,4 @@
-
-import streamlit as st
-st.write('this is a webpage')
-
-'''########### importing libraries ###############
+########### importing libraries ###############
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -378,4 +374,3 @@ if st.button('About Us'):
 #  'hemo': 13.5,
 #  'pcv': 41.0,
 #  'wc': 6900.0}
-'''
